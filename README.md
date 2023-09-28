@@ -30,5 +30,42 @@ To install the required dependencies for both the backend and frontend, follow t
    ```sh
    cd backend
 
-2.type the command 
+2.Type the command 
    ```npm install```
+
+3. For Frontend Navigate to the frontend/myapp directory:
+
+  ```sh
+  cd frontend/myapp
+
+4.Install client dependencies:
+    ```npm install```
+  
+ 
+
+
+##Running the Server
+
+###To start the server, follow these steps:
+
+1.Navigate to the backend directory:
+  ```cd backend```
+
+2.Start the backend server and it will run on port 8080:
+  ```npm run server```
+
+##Running the Frontend
+###To start the frontend development server, follow these steps:
+
+
+1.Navigate to the frontend/myapp directory:
+ ```cd frontend/myapp```
+
+2.Start the development server it will run on port 3000:
+ ```npm start```
+
+The frontend development server will run on http://localhost:3000 by default.
+
+Now you can access the application in your web browser by visiting http://localhost:3000 (frontend) and interact with the Employee Management System.
+
+###Happy coding!
